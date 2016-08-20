@@ -38,7 +38,11 @@ public class Interfaz1 extends javax.swing.JFrame {
         cmdCalcular = new javax.swing.JButton();
         cmdBorrar = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
-        txtResultado = new javax.swing.JTextField();
+        txtPPersonaUno = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        txtPPersonaDos = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        txtPPersonaTres = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,19 +70,27 @@ public class Interfaz1 extends javax.swing.JFrame {
         cmdBorrar.setText("Borrar");
         jPanel1.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, -1, -1));
 
-        jLabel5.setText("Resultado:");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, -1, -1));
-        jPanel1.add(txtResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 120, 60, -1));
+        jLabel5.setText("% Persona 1:");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 70, -1, -1));
+        jPanel1.add(txtPPersonaUno, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 70, 60, -1));
+
+        jLabel6.setText("% Persona 2:");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, -1, -1));
+        jPanel1.add(txtPPersonaDos, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, 60, -1));
+
+        jLabel7.setText("% Persona 3:");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, -1, -1));
+        jPanel1.add(txtPPersonaTres, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 150, 60, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 392, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
         );
 
         pack();
@@ -127,10 +139,14 @@ public class Interfaz1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txtNumeroDos;
     private javax.swing.JTextField txtNumeroTres;
     private javax.swing.JTextField txtNumeroUno;
-    private javax.swing.JTextField txtResultado;
+    private javax.swing.JTextField txtPPersonaDos;
+    private javax.swing.JTextField txtPPersonaTres;
+    private javax.swing.JTextField txtPPersonaUno;
     // End of variables declaration//GEN-END:variables
 }
