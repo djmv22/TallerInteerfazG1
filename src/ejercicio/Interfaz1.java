@@ -72,14 +72,20 @@ public class Interfaz1 extends javax.swing.JFrame {
 
         jLabel5.setText("% Persona 1:");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 70, -1, -1));
+
+        txtPPersonaUno.setEditable(false);
         jPanel1.add(txtPPersonaUno, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 70, 60, -1));
 
         jLabel6.setText("% Persona 2:");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, -1, -1));
+
+        txtPPersonaDos.setEditable(false);
         jPanel1.add(txtPPersonaDos, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 110, 60, -1));
 
         jLabel7.setText("% Persona 3:");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, -1, -1));
+
+        txtPPersonaTres.setEditable(false);
         jPanel1.add(txtPPersonaTres, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 150, 60, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
