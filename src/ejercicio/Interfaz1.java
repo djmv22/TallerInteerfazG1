@@ -5,6 +5,8 @@
  */
 package ejercicio;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author DanielDeJesus
@@ -138,6 +140,19 @@ public class Interfaz1 extends javax.swing.JFrame {
        String res1,res2,res3;
        double n1,n2,n3,op1,op2,op3;
        
+       if(txtNumeroUno.getText().trim().isEmpty()){
+            JOptionPane.showMessageDialog(this,"Digite el numero uno"," error", JOptionPane.ERROR_MESSAGE);
+            txtNumeroUno.requestFocusInWindow();
+        }
+        else if(txtNumeroDos.getText().trim().isEmpty()){
+            JOptionPane.showMessageDialog(this,"Digite el numero dos"," error", JOptionPane.ERROR_MESSAGE);
+            txtNumeroDos.requestFocusInWindow();
+        }
+        else if(txtNumeroTres.getText().trim().isEmpty()){
+            JOptionPane.showMessageDialog(this,"Digite el numero tres","error", JOptionPane.ERROR_MESSAGE);
+            txtNumeroTres.requestFocusInWindow();
+        }
+        else {
        n1=Double.parseDouble(txtNumeroUno.getText());
        n2=Double.parseDouble(txtNumeroDos.getText());
        n3=Double.parseDouble(txtNumeroTres.getText());
@@ -154,7 +169,7 @@ public class Interfaz1 extends javax.swing.JFrame {
        txtPPersonaDos.setText(res2);
        txtPPersonaTres.setText(res3);
        
-       
+        } 
        
     }//GEN-LAST:event_cmdCalcularActionPerformed
 
